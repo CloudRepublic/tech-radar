@@ -1,0 +1,24 @@
+body {
+    font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
+}
+
+tr:not(.table-cat)>td {
+    border: 1px solid #dbdbdb;
+}
+
+.table-cat {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.table-cat>td {
+    padding-top: 1em;
+}
+
+.checked {
+    color: orange;
+}
+
+td:nth-child(2) {
+    font-style: italic;
+}
